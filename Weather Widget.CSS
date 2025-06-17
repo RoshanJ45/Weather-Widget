@@ -1,0 +1,46 @@
+    body {
+height: 100vh;
+margin: 0;
+background: linear-gradient(135deg, #667eea, #764ba2);
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Segoe UI', sans-serif;
+}
+.widget {
+width: 280px;
+padding: 20px;
+border-radius: 20px;
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(20px);
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+color: #fff;
+text-align: center;
+transition: all 0.3s ease;
+}
+.widget:hover {
+transform: scale(1.05);
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+.widget .icon {
+font-size: 50px;
+margin-bottom: 10px;
+}
+.widget .temp {
+font-size: 48px;
+font-weight: 600;
+}
+.widget .location {
+font-size: 18px;
+margin: 10px 0;
+}
+.widget .details {
+display: flex;
+justify-content: space-between;
+margin-top: 15px;
+font-size: 14px;
+opacity: 0.8;
+}
+.details div {
+width: 33%;
+}
